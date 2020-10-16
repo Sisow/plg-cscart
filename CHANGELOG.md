@@ -10,7 +10,6 @@
 - Spraypay  
 
 ## [5.1.2] - 2019-03-19
-###   
 - Capayable  
 
 ## [5.0.0] - 2018-03-02
@@ -22,7 +21,6 @@
 - Afterpay template  
 
 ## [4.8.0] - 2017-08-18
-###   
 - Afterpay  
 
 ## [4.7.2] - 2017-03-17
@@ -34,7 +32,6 @@
 - Bunq  
 
 ## [4.6.1] - 2017-02-22
-###   
 - fix; blanc screen  
 
 ## [4.6.0] - 2017-01-24
@@ -61,15 +58,12 @@
 - Notify  
 
 ## [3.5.1] - 2013-10-31
-###   
 - Added missing files  
 
 ## [3.5.0] - 2013-10-31
-###   
 - CreditCard
 - Better notification  
 
 ## [3.2.1] - 2013-10-31
-###   
 - Notify
 - Processing transaction
