@@ -1,6 +1,6 @@
 <div class="litecheckout__item">
 <div class="clearfix">
-	<img style="height: 48px;" src="https://www.sisow.nl/logo/payment/width200/ideal.png" alt="iDEAL" />
+	<img style="height: 48px;" src="images/sisow/ideal.png" alt="iDEAL" />
 	<p>
 		Betaal met iDEAL</br>
 	</p>
