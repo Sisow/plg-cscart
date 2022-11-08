@@ -90,6 +90,14 @@ class Sisow
 	public function send($method, array $keyvalue = NULL, $return = 1) {
 	
 		$url = "https://www.sisow.nl/Sisow/iDeal/RestHandler.ashx/" . $method;
+
+		//Software Headers
+		$keyvalue['PlatformName'] = 'CS-Cart';
+		$keyvalue['PlatformVersion'] = '4.x';
+		$keyvalue['ModuleSupplier'] = 'Buckaroo B.V.';
+		$keyvalue['ModuleName'] = 'Buckaroo (former Sisow) CS-Cart';
+		$keyvalue['ModuleVersion'] = '5.4.0';
+
 		$options = array(
 			CURLOPT_POST => 1,
 			CURLOPT_HEADER => 0,
