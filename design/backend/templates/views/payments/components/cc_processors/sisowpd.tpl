@@ -2,11 +2,11 @@
 
 <hr />
 <div class="form-field">
-	<label for="merchantid">Merchant ID:</label>
+	<label for="merchantid">Website Key:</label>
 	<input type="text" name="payment_data[processor_params][merchantid]" id="merchantid" value="{$processor_params.merchantid}" class="input-text" size="20" />
 </div>
 <div class="form-field">
-	<label for="merchantkey">Merchant Key:</label>
+	<label for="merchantkey">Secret Key:</label>
 	<input type="text" name="payment_data[processor_params][merchantkey]" id="merchantkey" value="{$processor_params.merchantkey}" class="input-text"  size="40" />
 </div>
 <div class="form-field">
@@ -46,6 +46,3 @@
 Wanneer u de omschrijving leeg laat, wordt hiervoor "Order: order_id" gebruikt.<br />
 Als u het woord <b>ORDER_ID</b> gebruikt in de omschrijving, wordt dit vervangen met het ordernummer.
 </p>
-<div class="form-field">
-  <img src="http://www.sisow.nl/images/betaallogos/Logo-sisow-png.png" alt="Sisow" title="Sisow" border="0" height="60" />
-</div>

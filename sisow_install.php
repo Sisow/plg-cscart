@@ -92,11 +92,11 @@
 			$template = 'cc_outside.tpl';
 		}
 
-		upd($paymentcode, "`" . $config['table_prefix'] . "payment_processors` SET `processor` = 'Sisow ".$naam."', `processor_script` = 'sisow".$paymentcode.".php', `admin_template` = 'sisow".$paymentcode.".tpl', `processor_template` = 'views/orders/components/payments/".$template."', `callback` = 'N', `type` = 'P'", $config['table_prefix'], $mysqli);
+		upd($paymentcode, "`" . $config['table_prefix'] . "payment_processors` SET `processor` = '".$naam."', `processor_script` = 'sisow".$paymentcode.".php', `admin_template` = 'sisow".$paymentcode.".tpl', `processor_template` = 'views/orders/components/payments/".$template."', `callback` = 'N', `type` = 'P'", $config['table_prefix'], $mysqli);
 	}
 	
 	echo '
-<h1>Sisow Installatie</h1>
+<h1>Buckaroo Payments (former Sisow) Installatie</h1>
 <p style="color: red;">Please remove this file after installation and clear you CS-Cart cache!</p>
 ';
 

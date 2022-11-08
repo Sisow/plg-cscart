@@ -1,6 +1,6 @@
 <div class="sisow ideal">
 	<div class="form-field">
-		<img style="height: 48px;" src="images/sisow/sisowideal.jpg" alt="iDEAL" />
+		<img style="height: 48px;" src="images/sisow/ideal.png" alt="iDEAL" />
 
 		Betaal met iDEAL</br>
 		

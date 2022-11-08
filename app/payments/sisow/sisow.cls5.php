@@ -146,11 +146,11 @@ class Sisow
 			// kan ook via de gateway aangevraagd worden, maar is altijd hetzelfde
 			if ($select === true) {
 				$output = "<select id=\"sisowbank\" name=\"issuerid\">";
-				$output .= "<option value=\"99\">Sisow Bank (test)</option>";
+				$output .= "<option value=\"99\">Buckaroo Bank (test)</option>";
 				$output .= "</select>";
 			}
 			else {
-				$output = array("99" => "Sisow Bank (test)");
+				$output = array("99" => "Buckaroo Bank (test)");
 			}
 			return 0;
 		}
